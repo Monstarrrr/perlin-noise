@@ -8,7 +8,7 @@ function setup() {
 function draw() {
     background(51);
 
-    // SET ELLIPSE'S "x" VALUE //
+    // SET NOISE VALUE //
     var x = map(noise(xoff1), 0, 1, 0, width);
     var y = map(noise(xoff2), 0, 1, 0, height);
 
